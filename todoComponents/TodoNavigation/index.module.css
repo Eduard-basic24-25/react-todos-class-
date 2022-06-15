@@ -1,0 +1,29 @@
+li {
+    width: 30%;
+    cursor: pointer;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: #777;
+    font-size: 1.1em;
+}
+.navigation {
+    margin: 0;
+    padding:10px 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.itemLeft { 
+    width: 30%;
+}
+.toggle {
+    display: flex;
+    justify-content: space-between;
+}
+.deleteCompleted {
+    text-align: end;
+}
